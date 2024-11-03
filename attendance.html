@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      *
+    {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-color: #f0f3f6;
+    }
+
+    .navbaritem
+    {
+    
+        background-color:white;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .navbaritem ul li
+     {
+        display: inline-block;
+        margin:10px;
+    }
+    .navbaritem ul li a
+    {
+        list-style: none;
+        text-decoration: none;
+        color:black;
+    }
+    
+    body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+        #aptechgdnlogo
+        {
+            height: 100px;
+            width: 300px;
+            position: absolute;
+        }
+        .attendancetableHeading
+        {
+            justify-content: center;
+            align-items: center;
+            display: flex;            
+        }
+        #usrNameBtn
+        {
+            display: none;
+
+        }
+        #usrNameBtn:hover
+        {
+        }
+        #usrLogout
+        {
+            display: none;
+        }
+       
+</style>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="navbarlogo">
+                <a href="Studentdashboard.html"><img src="img/LOGO-dashboard.png" id="aptechgdnlogo" alt=""></a>
+            </div>
+            <div class="navbaritem">
+                <ul>
+                    <li><a href="Studentdashboard.html">Dashboard</a></li>
+                    <li><a href="">Profile</a></li>
+                    <li><a href="registerComplains.html">Register Complains</a></li>
+                    <li><a href="">Exam</a></li>
+                    <li><a href="">Attendance</a></li>
+                    <li><a href="">Annoument</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li ><a href=""><Button id="usrNameBtn" >Mr.Muhmmad Daniyal</Button></a></li>
+                    <li ><a href=""><Button id="usrLogout">Logout</Button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="welcomeback">
+        <div class="welcomeheading">
+            Hi,welcome back!
+        </div>
+        <div class="welcomeTime">
+            <p>Last Login 23 hours ago.View details</p>
+        </div>
+    </div>
+    <div class="attendanceTable">
+        <div class="attendancetableHeading">
+            <h1 >Monthly Attendance</h1>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

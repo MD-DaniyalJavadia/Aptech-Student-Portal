@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<style>
+    *
+    {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-color: #f0f3f6;
+    }
+
+    .navbaritem
+    {
+        background-color:white;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .navbaritem ul li
+     {
+        display: inline-block;
+        margin:10px;
+    }
+    .navbaritem ul li a
+    {
+        list-style: none;
+        text-decoration: none;
+        color:black;
+    }
+    
+    body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card p {
+            margin: 10px 0;
+        }
+        
+       
+        #aptechgdnlogo
+        {
+            margin:16px;
+            height: 70px;
+            width: 300px;
+            position: absolute;
+        }
+   
+</style>
+
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="navbarlogo">
+                <img src="img/LOGO-dashboard.png" id="aptechgdnlogo" alt="">
+            </div>
+            <div class="navbaritem">
+                <ul>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">Profile</a></li>
+                    <li><a href="">Register Complains</a></li>
+                    <li><a href="">Exam</a></li>
+                    <li><a href="">Attendance</a></li>
+                    <li><a href="">Annoument</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <img src="img/attendance.jpg" height="100px" width="100px"  alt="Attendance Icon">
+            <h2>Attendance Schedule</h2>
+            <p><strong>Student Id:</strong> Student1497658</p>
+            <p><strong>Classes Held:</strong> 14</p>
+            <p><strong>Classes Attended:</strong> 12</p>
+            <p><strong>Month:</strong> Aug'2024</p>
+        </div>
+
+        <div class="card">
+            <img src="img/seminar.jpg" height="100px" width="100px" alt="Announcement Icon">
+            <h2>Announcement Schedule</h2>
+            <p><strong>Subject:</strong> Cash Prize Distribution for Talent Hunt Winners</p>
+            <p><strong>Semester:</strong> Talent Hunt - Prize Distribution</p>
+        </div>
+
+        <div class="card">
+            <img src="img/exam.png"  height="100px" width="100px" alt="Exam Icon">
+            <h2>Exam Schedule</h2>
+            <p><strong>Semester:</strong> 3</p>
+            <p><strong>Student Id:</strong> Student1497658</p>
+            <p><strong>Exam Date:</strong> 2024-10-05</p>
+            <p><strong>Batch Name:</strong> 2307A</p>
+        </div>
+
+        <div class="card">
+            <img src="img/jobs.jpg" height="100px" width="100px" alt="Jobs Icon">
+            <h2>Jobs Schedule</h2>
+            <p><strong>Gender:</strong> Any</p>
+            <p><strong>Job Post Date:</strong> 2021-08-20</p>
+            <p><strong>Job Closing Date:</strong> 2021-08-23</p>
+            <p><strong>Job Location:</strong> Clifton</p>
+            <p><strong>Job Nature:</strong> Morning</p>
+        </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
